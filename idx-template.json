@@ -6,7 +6,7 @@
         "id": "repo",
         "name": "Repo to clone",
         "type": "text",
-        "required": true
+        "required": false
       }
     ]
   }
