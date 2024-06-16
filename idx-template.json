@@ -1,0 +1,12 @@
+{
+    "name": "Git Auth Cookie Daemon",
+    "description": "Git Auth Cookie Daemon",
+    "params": [
+      {
+        "id": "repo",
+        "name": "Repo to clone",
+        "type": "text",
+        "required": true
+      }
+    ]
+  }
