@@ -8,8 +8,9 @@ let
 
         idx.workspace.onCreate = {
             init = '''
-                  git clone ${repo} "$out" && \
-                  code -r "$out"
+                 
+                  git clone ${repo} $(pwd) && \
+                  code -r $(pwd)"
             ''';
         };
     }
