@@ -1,12 +1,15 @@
 {
-    "name": "Git Auth Cookie Daemon",
-    "description": "Git Auth Cookie Daemon",
-    "params": [
-      {
-        "id": "repo",
-        "name": "Repo to clone",
-        "type": "text",
-        "required": false
-      }
-    ]
+  "name": "My Template",
+  "description": "A basic template for my project",
+  "parameters": [
+    {
+      "name": "projectName",
+      "type": "string",
+      "description": "Enter your project name"
+    }
+  ],
+  "environment": {
+    "PROJECT_HOME": "/home/user",
+    "PROJECT_NAME": "${input.projectName}"
   }
+}
