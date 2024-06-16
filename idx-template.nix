@@ -24,7 +24,6 @@ in {
 
     bootstrap = ''
       mkdir -p "$out/.idx"
-      git clone ${repo} "$out"
       install --mode u+rw ${devNix} "$out"/.idx/dev.nix
     '';
 }
